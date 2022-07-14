@@ -1,0 +1,110 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+section{
+  text-align: center;
+  background-color: grey;
+  height: 100%;
+  margin: 20px;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+
+input[type="text"],input[type="submit"]{
+  width:70%;
+  padding: 5px;
+}
+label{
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+input[type="submit"]{
+  padding: 7px;
+  color: black;
+  width:70%;
+  border-radius: 50px;
+}
+
+section > h1{
+  padding: 50px;
+  font-weight: 600;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+form > h2{
+  font-weight: 500;
+  font-size: larger;
+  text-transform: capitalize;
+  
+}
+
+span,a{
+  margin: 10px;
+  display: block;
+}
+
+#list{
+  text-transform: uppercase;
+  
+}
+
+.error{
+  color: red;
+  font-size: 40px;
+  text-align: center;
+}
+.success{
+  color: green;
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+li{
+  text-align: left;
+}

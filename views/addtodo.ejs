@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Blank Template</title>
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section class="clearfix">
+			<h1>Daily todo App</h1>
+			<form action="/addtodo" method="POST">
+				<h2>add to do</h2>
+				<div class="column">
+					<label for="title">title</label>
+					<input type="text" class="form-controls" value="" id="title">
+				</div>
+				<div class="column">
+					<label for="description">desc</label>
+					<input type="text" class="form-controls" value="" id="description">
+				</div>
+				<div class="column">
+					<label for="description">time</label>
+					<input type="time" class="form-controls" id="time">
+				</div>
+				<div class="column">
+					<input type="submit" class="form-controls" value="submit">
+				</div>
+			</form>
+		</section>
+
+		<script type="module" src="/js/main.js"></script>
+	</body>
+</html>
